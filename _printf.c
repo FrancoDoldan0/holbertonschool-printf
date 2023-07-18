@@ -27,7 +27,7 @@ while(format[i] != '\0') /*We observe every character until we reach the final-c
         {
             return(-1);
         }else /*in case of correct-format indicator*/
-        number_Of_Characters_Printed += elejir_funcion(vargs,format[i+1]); /*Add value to counter, and Call upon the corresponding function.*/
+        number_Of_Characters_Printed += elegir_funcion(vargs,format[i+1]); /*Add value to counter, and Call upon the corresponding function.*/
         i++; /*go next character.*/
     }
     else /*no special-format indicator.*/
