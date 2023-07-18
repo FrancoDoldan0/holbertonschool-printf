@@ -8,7 +8,7 @@
 */
 
 /* Step one: Define the Variadic Function _printf.*/
-int _printf(const char *format, ...);
+int _printf(const char *format, ...)
 {
 /* Step two: declare a local variable of type va_list so we can use the variadic arguments.*/
 va_list vargs /*(variadic arguments).*/
