@@ -11,7 +11,7 @@
 int _printf(const char *format, ...)
 {
 /* Step two: declare a local variable of type va_list so we can use the variadic arguments.*/
-va_list vargs /*(variadic arguments).*/
+va_list vargs; /*(variadic arguments).*/
 int i = 0, number_Of_Characters_Printed = 0; /*Declare the variables to use.*/
 va_start(vargs, format); /*let the vargs begin.*/
 /* Step three: Check format and select corresponding function.*/
