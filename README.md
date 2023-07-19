@@ -2,14 +2,30 @@
 <img src="https://holbertonschool.uy/wp-content/themes/holberton/assets/img/logo.png" height="60%" width="50%">
 </h1>
 
-# Printf
+<div align="center">
+    <h1>Printf Project</h1>
+</div>
 
 ## Synopsis
-This is a simple implementation of printf function that formats and prints data
+This is a simple implementation of printf function that formats and prints 
+data
+
+## Description
+_printf is a function that is used to print formatted information to the console or another output stream. It allows displaying messages on the screen with text, numbers, and other data, and can format the output according to given specifications.
+
+## Specifiers
+
+|  Type |  Make  |
+| ------------ | ------------ |
+| %c  | prints a character  |
+|  %s  | prints a string
+|  %d | prints a decimal  |
+|  %i | prints an integer   |
+
+## Flowchart
 
 
-
-
+![Alt text](<diagrama de flujo holberton.drawio (1).svg>)
 
 
 ## Autors
