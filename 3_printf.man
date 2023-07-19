@@ -1,0 +1,36 @@
+.TH _printf 3 "19/7/2023"
+.SH NAME
+.B _printf
+- Prints an output to stdout corresponding to the specified format/s in the input.
+.SH SYNOPSIS
+#include "main.h"
+.sp 1
+int _printf(const char *format, ...)
+.SH DESCRIPTION
+The _printf function prints the formatted output to the standard output (stdout) based on the given format and additional arguments.
+.sp 1
+The format string can contain plain characters and conversion specifiers, which start with a percentage sign (%), followed by a specifier character.
+.sp 1
+Example: _printf ("Hello all %c %s", 'C', "string")
+.sp 2
+This example will print: Hello all C string
+.SH CONVERSION SPECIFIERS
+.TP
+%c
+Print a single character. Expects an int argument that represents the ASCII value of the character.
+.TP
+%s
+Prints a string. Expects a pointer to a null-terminated string as an argument.
+.TP
+%%
+A single % character is printed. This is useful when you want to print a % character; just put %%. The function does not expect any argument for this specifier.
+.TP
+%d, %i
+Prints a signed decimal integer. Expects an int argument.
+.SH RETURN VALUE
+The function returns the total number of characters written to the standard output, excluding the null terminator. In case of an error, it returns -1.
+.SH AUTHORS
+Franco Doldan & Pablo Ferraro
+.sp 1
+Holberton School, 2023
+
