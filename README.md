@@ -24,8 +24,7 @@ _printf is a function that is used to print formatted information to the console
 
 ## Flowchart
 
-
-![Alt text](<diagrama de flujo holberton.drawio (1).svg>)
+<img src="https://github.com/FrancoDoldan0/holbertonschool-printf/blob/master/diagramadeflujo.svg" alt="Flowchart">
 
 
 ## Autors
