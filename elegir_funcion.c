@@ -9,7 +9,7 @@
  */
 int elegir_funcion(va_list vargs, char letter)
 {
-	/* functions to execute according to format[i + 1] */
+	/* complete list of functions that can be executed. Format: [i + 1] */
 	toprint_t data[] = {
 		{"c", print_c},     /*Function to print a character*/
 		{"s", print_s},     /*Function to print a string*/
